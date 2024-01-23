@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/inspiration"
+            android:title="Inspire"
+            android:checked="true" />
+        <item
+            android:id="@+id/management"
+            android:title="Management" />
+        <item
+            android:id="@+id/sports"
+            android:title="Sports" />
+        <item
+            android:id="@+id/life"
+            android:title="Life" />
+        <item
+            android:id="@+id/funny"
+            android:title="Funny" />
+        <item
+            android:id="@+id/love"
+            android:title="Love" />
+        <item
+            android:id="@+id/art"
+            android:title="Art" />
+        <item
+            android:id="@+id/students"
+            android:title="Students" />
+    </group>
+</menu>

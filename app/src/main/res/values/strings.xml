@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">You Widgets</string>
+    <string name="add_widget">Add widget</string>
+    <string name="cryptocurrency_price_chart_widget_description">Crypto Price Widget</string>
+    <string name="title_activity_cryptocurrency_price_chart_widget_configuration">
+        CryptocurrencyPriceChartWidgetConfigureActivity
+    </string>
+    <string name="configure">Configure</string>
+    <string name="app_widget_description">This is an app widget description</string>
+
+    <string-array name="cryptocurrency_price_chart_widget_cryptocurrencies">
+        <item name="bitcoin">Bitcoin</item>
+        <item name="ethereum">Ethereum</item>
+        <item name="dogecoin">Dogecoin</item>
+    </string-array>
+    <string name="appwidget_text">EXAMPLE</string>
+</resources>

@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.YouWidgets.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_widget_background"
+    android:theme="@style/Theme.YouWidgets.AppWidgetContainer">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/daily_quote_label"
+            style="@style/Widget.AppCompat.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:alpha="0.5"
+            android:text="Quote Of The Day"
+            android:textAlignment="center"
+            android:textColor="?android:attr/colorAccent"
+            android:textFontWeight="500"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/daily_quote"
+            style="@style/Widget.AppCompat.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:autoSizeTextType="uniform"
+            android:text="It wasn't raining when Noah built the ark.."
+            android:textAlignment="center"
+            android:textColor="?android:attr/colorAccent"
+            android:textFontWeight="500"
+            android:textSize="64sp" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.ondrejbarta.cryptoataglance.CryptocurrencyPriceChartWidgetConfigureActivity"
+    android:description="@string/cryptocurrency_price_chart_widget_description"
+    android:initialKeyguardLayout="@layout/cryptocurrency_price_chart_widget_small"
+    android:initialLayout="@layout/widget_loading_message"
+    android:minWidth="203dp"
+    android:minHeight="110dp"
+    android:previewImage="@drawable/cryptocurrency_price_chart_widget_preview"
+    android:previewLayout="@layout/cryptocurrency_price_chart_widget_small"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="3"
+    android:targetCellHeight="2"
+    android:updatePeriodMillis="7200000"
+    android:widgetCategory="home_screen"
+    android:widgetFeatures="reconfigurable"/>
